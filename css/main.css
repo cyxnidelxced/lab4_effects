@@ -195,6 +195,17 @@ code {
     animation: rotate 20s linear infinite, pulse-glow 3s ease-in-out infinite alternate;
 }
 
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes pulse-glow {
+    0% { box-shadow: 0 0 10px rgba(123, 31, 162, 0.5); }
+    100% { box-shadow: 0 0 30px rgba(123, 31, 162, 0.9); }
+}
+
+
 /* MASKING EFFECT */
 .masking-demo {
     position: relative;

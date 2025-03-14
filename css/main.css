@@ -1,0 +1,13 @@
+/* General styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0a0a1a;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(90, 20, 220, 0.13) 0%, transparent 20%),
+        radial-gradient(circle at 90% 60%, rgba(20, 180, 220, 0.13) 0%, transparent 25%);
+}

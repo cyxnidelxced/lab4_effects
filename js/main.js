@@ -15,3 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Create multiple shooting stars with different trajectories
     const shootingStarContainer = document.querySelector('.shooting-star-container');
+    for (let i = 0; i < 5; i++) {
+        const shootingStar = document.createElement('div');
+        shootingStar.classList.add('shooting-star');
+        shootingStar.style.top = `${Math.random() * 100}%`;
+        shootingStar.style.left = `${Math.random() * 50 - 100}px`;
+        shootingStar.style.transform = `rotate(${-45 + (Math.random() * 10 - 5)}deg)`;
+        shootingStar.style.animationDelay = `${Math.random() * 10}s`;
+        shootingStarContainer.appendChild(shootingStar);
+    }
+});

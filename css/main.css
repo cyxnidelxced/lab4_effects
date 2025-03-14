@@ -81,3 +81,27 @@ section:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(123, 31, 162, 0.4);
 }
+
+.effect-description {
+    background-color: rgba(30, 30, 50, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 3px solid #651fff;
+}
+
+.code-sample {
+    background-color: #1a1a2e;
+    color: #7efff5;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+code {
+    color: #bb86fc;
+    background: rgba(20, 20, 40, 0.5);
+    padding: 2px 5px;
+    border-radius: 3px;
+}

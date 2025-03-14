@@ -430,3 +430,11 @@ code {
     padding-left: 25px;
     position: relative;
 }
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #333;
+    color: #888;
+}

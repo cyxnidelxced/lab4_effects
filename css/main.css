@@ -105,3 +105,26 @@ code {
     padding: 2px 5px;
     border-radius: 3px;
 }
+
+/* SHAPE OUTSIDE EFFECT */
+.shape-outside-demo {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(30, 30, 50, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.shape-circle {
+    width: 250px;
+    height: 250px;
+    float: left;
+    shape-outside: circle(50%);
+    margin-right: 20px;
+    background: url('https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?ixlib=rb-1.2.1&auto=format&fit=crop&w=250&h=250&q=80') center/cover;
+    border-radius: 50%;
+    border: 3px solid #651fff;
+    box-shadow: 0 0 20px rgba(123, 31, 162, 0.7);
+    animation: rotate 20s linear infinite, pulse-glow 3s ease-in-out infinite alternate;
+}

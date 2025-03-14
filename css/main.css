@@ -269,3 +269,27 @@ code {
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(123, 31, 162, 0.5);
 }
+
+.blur .filter-image {
+    filter: blur(3px);
+}
+
+.brightness .filter-image {
+    filter: brightness(1.5);
+}
+
+.contrast .filter-image {
+    filter: contrast(1.5);
+}
+
+.grayscale .filter-image {
+    filter: grayscale(1);
+}
+
+.hue-rotate .filter-image {
+    filter: hue-rotate(180deg);
+}
+
+.sepia .filter-image {
+    filter: sepia(0.8);
+}

@@ -24,3 +24,16 @@ header {
     overflow: hidden;
     height: 200px;
 }
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80');
+    background-size: cover;
+    opacity: 0.2;
+    mix-blend-mode: lighten;
+}
